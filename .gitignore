@@ -1,0 +1,64 @@
+###############################################
+# Python / Jupyter / Data Science .gitignore  #
+###############################################
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage / type checking
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.coverage
+coverage.xml
+htmlcov/
+
+# Caches & logs
+.cache/
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data artifacts (adjust as needed)
+data/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+
+# Notebook exports
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+*.html
+
+
