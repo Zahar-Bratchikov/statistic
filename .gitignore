@@ -61,4 +61,8 @@ data/
 *.nbconvert.ipynb
 *.html
 
+# archives
+*.zip
+*.tar.gz
+
 
